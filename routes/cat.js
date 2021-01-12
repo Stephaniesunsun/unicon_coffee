@@ -15,7 +15,7 @@ router.get('/',async (req,res)=>{ //will be /cat.specified in server.js
         res.render('cat/index',{
             cat:cats,
             searchOptions:req.query
-        });//pass 'cat' to cat/index
+        })//pass 'cat' to cat/index
     }catch{
         res.redirect('/')//to the homepage
     }

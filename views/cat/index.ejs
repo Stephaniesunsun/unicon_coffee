@@ -4,7 +4,7 @@
     <input type="text" name="name" value="<%=searchOptions.name%>">
     <button type="submit">Search Cat</button>
 </form> 
-<br>
-<% cat.forEach(category)=>{%>
-    <p><%=category.name%></p>
+
+<% cat.forEach(category=>{%>
+    <div><%=category.name%></div>
 <%})%>

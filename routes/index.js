@@ -2,7 +2,7 @@ const express=require('express');
 const router=express.Router();
 
 router.get('/',(req,res)=>{
-    res.send("hello");
+    //res.send(newCat.name);
 })
 
 module.exports=router;

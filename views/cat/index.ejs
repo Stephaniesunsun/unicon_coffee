@@ -1,0 +1,10 @@
+<h2>search cats</h2>
+<form action="/cat" method="GET">
+    <label>name</label>
+    <input type="text" name="name" value="<%=searchOptions.name%>">
+    <button type="submit">Search Cat</button>
+</form> 
+<br>
+<% cat.forEach(category=>{%>
+    <p><%=category.name%></p>
+<%})%>
